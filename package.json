@@ -1,0 +1,20 @@
+{
+  "name": "express-bgtracker-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Viktorres19/express-bgtracker-api.git",
+  "author": "Viktor Lukyanchenkov <viktor.lukyanchenkov@cd.p2h.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "cross-env NODE_ENV=development nodemon src/server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
